@@ -1,0 +1,39 @@
+
+
+
+
+h1 {
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 72px;
+    color: #C35100;
+    margin-top: 55px;
+}
+.formulario {
+    width: 40%;
+    text-align: center;
+}
+form {
+    margin: 20px 0;
+    text-align: left;
+    border: 0.644909px solid #E8D8D8; 
+    padding: 10px;
+    border-radius: 30px;
+    padding: 20px;
+}
+.container {
+    display: flex;
+    justify-content:center;
+}
+
+.banner  {
+
+    width: 35%;
+
+    margin: auto 0;
+}
+
+.banner > img {
+    width: 100%;
+    padding: 20px;
+}

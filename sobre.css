@@ -1,0 +1,132 @@
+main {
+    font-family: 'Poppins';
+}
+
+.banner img {
+    width: 100%;
+
+}
+
+.txt-banner {
+    max-width: 450px;
+    position: absolute;
+    top: 20%;
+    right: 20%;
+}
+
+.txt-banner h1 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    color: #FFFFFF;
+}
+
+.txt-banner h2 {
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 48px;
+    color: #FFFFFF;
+
+
+}
+
+.historia {
+    width: 70%;
+    align-items: center;
+    text-align: center;
+    margin: 25px auto;
+    margin-bottom: 75px;
+}
+
+main h3 {
+    margin-bottom: 50px;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 48px;
+    color: #313131;
+
+}
+
+main p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: #000000;
+    margin: 0;
+}
+
+.video {
+    width: 100%;
+}
+
+.inclusao {
+    width: 70%;
+    align-items: center;
+    text-align: center;
+    margin: 25px auto;
+}
+
+
+.lema {
+    display: flex;
+    margin: 65px 0 70px 70px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.lema-txt {
+    width: 420px;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.lema-txt h2 {
+    margin-bottom: 24px ;
+}
+
+.lema-img>img {
+    width: 100%;
+}
+
+@media (max-width: 1550px) {
+    .lema {
+        margin: 0 auto;
+
+    }
+
+    .lema-txt {
+        width: 70%;
+        text-align: center;
+        margin: 0 auto;
+
+    }
+
+    .lema-img {
+        width: 100%;
+        margin-top: 50px;
+    }
+}
+
+
+@media (max-width: 800px) {
+    .txt-banner {
+        top: 15%;
+
+    }
+
+    .txt-banner h1 {
+        font-size: 16px;
+
+        line-height: 28px;
+    }
+
+    .txt-banner h2 {
+        font-size: 12px;
+
+        line-height: 20px;
+
+    }
+
+}

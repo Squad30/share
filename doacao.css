@@ -1,0 +1,116 @@
+main {
+    font-family: 'Poppins';
+}
+
+.banner img {
+    width: 100%;
+
+}
+
+.txt-banner {
+    max-width: 450px;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+}
+
+.txt-banner h1 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    color: #FFFFFF;
+}
+
+.txt-banner h2 {
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 48px;
+    color: #FFFFFF;
+
+
+}
+.doacao {
+    width: 70%;
+    text-align: center;
+    margin: 50px auto;
+}
+.doacao h2 {
+    margin-bottom: 55px;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 48px;
+    color: #313131;
+}
+
+.doacao p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+}
+.ajudar h2 {
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 72px;
+    color: #313131;
+    margin-top: 55px;
+
+}
+.ajudar {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+.ajudar h3 {
+    margin: 55px auto;
+    text-align: center;
+}
+
+.formas {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+    flex-wrap: wrap;
+}
+.formas > div {
+    width: 238px ;
+    text-align: center;
+
+}
+.formas >div >img {
+    max-width: 150px;
+}
+.formas h4 {
+    font-size: 20px;
+}
+.formas p {
+    font-size: 14px;
+}
+
+
+@media (max-width: 1000px) {
+    .txt-banner {
+        top: 15%;
+
+    }
+
+    .txt-banner h1 {
+        font-size: 16px;
+
+        line-height: 28px;
+    }
+
+    .txt-banner h2 {
+        font-size: 12px;
+
+        line-height: 20px;
+
+    }
+
+}

@@ -1,0 +1,293 @@
+.txt-banner {
+    position: absolute;
+    top: 20%;
+    left: 27%;
+    max-width: 305px;
+    text-align: left;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+
+}
+
+.txt-maior {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+
+}
+
+
+.img-banner>img {
+    display: block;
+    width: 100%;
+    height: auto
+}
+
+.contain-left {
+    width: 65%;
+}
+
+.contain-right {
+
+    text-align: left;
+    width: 35%;
+}
+
+.container-right {
+    width: 363px;
+    font-family: 'Poppins';
+    color: #313131;
+
+}
+
+
+.container-right h2 {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 48px;
+
+    margin-top: 120px;
+
+}
+
+.container-right > p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    margin-top: 25px;
+    color: #000000;
+}
+
+.container-right>div>p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #313131;
+    margin-left: 10px;
+    
+
+}
+
+.container-right>div {
+    display: flex;
+    align-items: flex-start;
+    margin: 30px 0;
+}
+
+.sobre {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.img-1 {
+    margin-top: 15px;
+}
+
+.img-2 {
+    margin-top: -50px;
+    margin-left: 158px;
+}
+
+
+.banner-2 {
+    background:url(img/banner-2.png) no-repeat;
+    background-repeat: auto;
+    height: 700px;
+    font-family: 'Poppins';
+
+}
+
+.banner-container > div{
+    margin-top: 150px;
+}
+.banner-container {
+    width: 70%;
+    display: flex;
+    padding: 50px;
+    justify-content: space-between;
+}
+.banner-2-txt {
+    padding-top: 50px;
+    max-width: 482px;
+}
+.banner-2-txt h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    color: #FFFFFF;
+    line-height: 54px;
+}
+.banner-2-txt p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.destaque {
+    color: #000000;
+    background-color: #FFFFFF;
+    text-decoration: underline;
+}
+
+.banner-2-txt a {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #313131;
+
+}
+
+.infos {
+    font-family: 'Poppins';
+    color: #000000;
+    background: #FFFFFF;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    padding: 40px;
+    max-height: 480px;
+}
+
+.infos h3 {
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 35px;
+    border-top: 0.644909px solid #E9A239;
+    padding-top: 16px;
+
+}
+
+.infos p {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    width: 298px;
+}
+
+.parcerias {
+    width: 80%;
+
+    margin: 60px auto;
+}
+.parcerias h2 {
+    max-width: 700px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    color: #313131;
+    text-align: center;
+    margin: 0 auto;
+}
+.empresas {
+    margin-top: 75px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
+@media (max-width: 1350px) {
+    .banner-2-txt h2 {
+        font-weight: 700;
+        font-size: 30px;
+    }
+
+    .sobre {
+        display: block;
+        text-align: center;
+    }
+
+    .container-right h2 {
+        margin-top: 100px;
+    }
+
+    .contain-left {
+        display: none;
+    }
+
+    .contain-right {
+        width: 100%;
+    }
+
+    .container-right {
+        margin: 0 auto;
+        width: 70%;
+    }
+
+    .footer {
+        margin-top: 20px;
+    }
+    .container-right>div {
+        margin: 20px 0;
+    }
+
+}
+
+@media (max-width: 800px) {
+    .banner-2-txt {
+        width: max-content
+    }
+    .banner-2-txt p{
+        margin: 0;
+    }
+    .banner-2-txt {
+        padding-top: 0;
+    }
+    .banner-container > div{
+        margin-top: 10px;
+        padding: 10px;
+    }
+    .banner-container {
+        display: block;
+    }
+    .infos {
+        width: 300px;
+    }
+    .infos p{
+        width: auto;
+    }
+
+    .sobre p {
+        font-size: 14px;
+    }
+
+    .container-right h2 {
+        margin-top: 0px;
+    }
+
+    .nav-btn {
+        border: 1px solid #C35100;
+        border-radius: 40px;
+        background-color: transparent;
+        color: #C35100;
+        font-size: 14px;
+        padding: 5px 10px;
+
+    }
+
+    .container-right>div>p {
+        font-size: 16px;
+        margin-top: 20px;
+    }
+
+    .txt-banner {
+        position: relative;
+        font-size: 12px;
+        max-width: 200px;
+        top: -200px;
+        left: 20%;
+    }
+
+    .txt-maior {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 30px;
+    }
+}
